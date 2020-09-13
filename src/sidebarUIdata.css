@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.small {
+    text-align: center;
+    font-weight: bold;
+}
+
+.crabcake {
+    width: 85vw;
+    padding-bottom: 10px;
+}
+
+.absolutepositioningskill {
+    position: absolute;
+    right: 10%;
+    translate: (-10%);
+
+}
+
+.absolutepositioningskill1 {
+    position: relative;
+    z-index: 1000;
+    height: 10vh;
+    pointer-events: none;
+}
+
+.dragonbutter {
+    font-size: 20px;
+        border-radius: 5px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: -3px;
+        padding-right: -3px;
+        border: 1px solid black;
+        background: #0069d9;
+        margin-left: 4vw;
+        position: absolute;
+        color: white;
+    right: 40px;
+    top: 30px;
+    height: 0 auto;
+    pointer-events: all;
+}

@@ -1,0 +1,141 @@
+.leaflet-container {
+    width: 75%;
+    height: 100vh;
+    float: right;
+}
+
+.sidebarbackground {
+    width: 25%;
+    height: 100vh;
+    float: left;
+}
+
+.sidebarbackground1 {
+    height: 8vh;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.button {
+    font-size: 20px;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: -3px;
+    padding-right: -3px;
+    border: 1px solid black;
+    background: none;
+    margin-left: 1vw;
+    background: white;
+}
+
+.button:hover {
+    background-color: #347cb4;
+    color: white;
+}
+
+.button:focus {
+    background-color: #347cb4;
+    color: white;
+}
+
+.active {
+    background-color: #347cb4;
+}
+
+@media only screen and (max-width: 1200px) {
+    .sidebarbackground1 {
+        height: 6vh;
+        display: flex;
+      justify-content: center;
+      align-items: center;
+    
+    }
+
+    .button {
+        font-size: 1.5vw;
+        border-radius: 5px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: -3px;
+        padding-right: -3px;
+        border: 1px solid black;
+        background: none;
+        margin-left: 1vw;
+        background: white;
+    }
+    
+    .button:hover {
+        background-color: #347cb4;
+        color: white;
+    }
+    
+    .button:focus {
+        background-color: #347cb4;
+        color: white;
+    }
+    
+    .active {
+        background-color: #347cb4;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .leaflet-container {
+        height: 60%;
+        width: 100%;
+        position: absolute;
+    }
+    
+    .sidebarbackground {
+        height: 40%;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+    
+    .sidebarbackground1 {
+        height: 8vh;
+
+    
+    }
+    
+    .button {
+        font-size: 20px;
+        border-radius: 5px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: -3px;
+        padding-right: -3px;
+        border: 1px solid black;
+        background: none;
+        margin-left: 4vw;
+        background: white;
+    }
+    
+    .button:hover {
+        background-color: #347cb4;
+        color: white;
+    }
+    
+    .button:focus {
+        background-color: #347cb4;
+        color: white;
+    }
+    
+    .active {
+        background-color: #347cb4;
+    }
+}
+
+.random {
+    font-size: 15px;
+
+}
+
+.random1 {
+    font-size: 12px;
+    line-height: 1.8;
+}
